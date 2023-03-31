@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+h1{
+    color: rgba(186, 249, 70, 0.539);
+    text-align: center
+}
+h2{
+    color: rgba(174, 234, 61, 0.603);
+    text-align: center 
+}
+form{
+    width: 500px;
+	border-collapse: collapse;
+    margin: 0px 20px 20px 0px;
+	overflow: hidden;
+    background-color: rgba(57, 27, 27, 0.2);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+select {
+    background: rgba(27, 27, 27, 0.2);
+    flex: 1;
+    padding: 0 .5em;
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0px 20px 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    background: rgba(27, 27, 27, 0.2);
+    padding: 0 .5em;
+    color: #ffffff;
+    margin: 0px 20px 20px 0px;
+    font-size: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+	padding: 15px;
+	background-color: rgba(57, 27, 27, 0.2);
+	color: #fff;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th, td {
+	padding: 15px;
+	background-color: rgba(57, 27, 27, 0.2);
+	color: #fff;
+    text-align: left;
+}
